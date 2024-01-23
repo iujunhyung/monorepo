@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "baseUrl": "C:/Temp/monorepo",
+        "paths": {
+            "@monorepo/lit-component": ["packages/lit-component/src"],
+        }
+    },
+    "references": [
+        {
+            "path": "packages/lit-component"
+        },
+        {
+            "path": "packages/react-layout"
+        },
+        {
+            "path": "packages/web-page"
+        }
+    ],
+    "include": [
+        "packages/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
