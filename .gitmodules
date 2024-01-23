@@ -1,9 +1,0 @@
-[submodule "lit-component"]
-	path = packages/lit-component
-	url = https://github.com/iujunhyung/lit-component.git
-[submodule "react-layout"]
-	path = packages/react-layout
-	url = https://github.com/iujunhyung/react-layout.git
-[submodule "web-page"]
-	path = packages/web-page
-	url = https://github.com/iujunhyung/web-page.git
