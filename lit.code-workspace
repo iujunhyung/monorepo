@@ -1,0 +1,43 @@
+{
+  "folders": [
+    {
+      "name": "ROOT",
+      "path": "."
+    },
+    {
+      "name": "Lit Package",
+      "path": "packages/lit-component"
+    },
+    {
+      "name": "React Package",
+      "path": "packages/react-layout"
+    }
+  ],
+  "settings": {
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build",
+        "type": "shell",
+        "command": "npm",
+        "args": [
+          "run", "build"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      },
+      {
+        "label": "test",
+        "type": "shell",
+        "command": "npm",
+        "args": [
+          "run", "test"
+        ]
+      }
+    ]
+  }
+}
