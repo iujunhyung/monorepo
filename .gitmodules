@@ -1,6 +1,6 @@
-[submodule "packages/lit-component"]
-	path = packages/lit-component
-	url = https://github.com/iujunhyung/lit-component
 [submodule "packages/react-layout"]
 	path = packages/react-layout
 	url = https://github.com/iujunhyung/react-layout
+[submodule "packages/lit-component"]
+	path = packages/react-layout
+	url = https://github.com/iujunhyung/lit-component
