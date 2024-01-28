@@ -1,6 +1,3 @@
-[submodule "packages/gitgit"]
-	path = packages/gitgit
-	url = https://github.com/iujunhyung/gitgit.git
 [submodule "packages/lit-component"]
 	path = packages/lit-component
 	url = https://github.com/iujunhyung/lit-component
