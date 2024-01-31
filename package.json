@@ -8,10 +8,11 @@
   "workspaces": [
     "packages/lit-component",
     "packages/react-layout",
-    "packages/web-page"
+    "packages/web-page",
+    "../node-packages/packages/node-utils"
   ],
   "devDependencies": {
-    "@iyulab/utils": "^0.0.1",
+    "@iyulab/utils": "0.0.6",
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5"
