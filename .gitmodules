@@ -6,3 +6,7 @@
 	path = packages/lit-component
 	url = https://github.com/iujunhyung/lit-component.git
 	branch = master
+[submodule "packages/gitgit"]
+	path = packages/gitgit
+	url = https://github.com/iujunhyung/gitgit.git
+	branch = main
